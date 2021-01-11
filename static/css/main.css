@@ -1,0 +1,36 @@
+.logo{
+  margin: auto;
+  padding-left: 250px;
+}
+.menu{
+  font-size: 20px;
+  text-align: right;
+  margin-right: 300px;
+  display: block;
+}
+ul,li{
+  list-style: none;
+}
+.slide{
+  overflow: hidden;
+}
+.slide ul{
+  width: calc(100% * 12); 
+  display: flex;
+  animation: slide 10s infinite;
+  height: 1200px;
+}
+.slide li{
+  width: calc(100% / 13);
+ 
+}
+@keyframes slide{
+       0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+      10% {margin-left:0;} /* 10 ~ 25 : 변이 */
+      25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
+      35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+     
+     
+    
+}
+
