@@ -1,0 +1,14 @@
+.logo{
+  margin: auto;
+  padding-left: 250px;
+}
+.menu{
+  font-size: 20px;
+  text-align: right;
+  margin-right: 300px;
+  display: block;
+}
+.line{
+  margin-left: 240px;
+  opacity: 0.3;
+}
