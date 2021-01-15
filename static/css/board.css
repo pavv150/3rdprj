@@ -1,0 +1,52 @@
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.logo{
+  margin: auto;
+  padding-left: 250px;
+}
+
+.menu{
+  font-size: 20px;
+  text-align: right;
+  margin-right: 300px;
+  display: block;
+}
+.line{
+  margin-left: 240px;
+  opacity: 0.3;
+}
+.board{
+  margin-left: 250px;
+}
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 69%;
+  height: 700px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+.title{
+  margin-top: 30px;
+}
+#name{
+  width: 500px;
+}
+#title{
+  margin-left: 15px;
+  width: 600px;
+}
+#msg{
+  margin-left: 15px;
+  width: 1000px;
+  height: 500px;
+}
+.save{
+  float: right;
+  
+}
+button{
+  width: 100px;
+}

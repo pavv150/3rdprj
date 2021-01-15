@@ -12,12 +12,11 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
-  font-family:sans-serif;
-
 }
 
 body {
   background-image: #34495e;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .loginForm {
